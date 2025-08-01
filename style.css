@@ -141,6 +141,21 @@ footer {
   font-weight: 500;
 }
 
+.btn {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2980b9;
+}
+
 /* Мобильная адаптация */
 @media (max-width: 768px) {
   .container {
