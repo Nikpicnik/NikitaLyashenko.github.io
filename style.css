@@ -1,0 +1,166 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.7;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-weight: 400;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.section {
+  margin-bottom: 35px;
+}
+
+section h2 {
+  font-size: 1.6rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+section h2 i {
+  color: #3498db;
+}
+
+.job, .education {
+  background: #f1f5f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border-left: 4px solid #3498db;
+}
+
+.job-header, .edu-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #1a1a1a;
+}
+
+.job-subheader, .edu-subheader {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 5px 0 10px;
+}
+
+.duration {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.date {
+  color: #777;
+  font-size: 0.95rem;
+}
+
+ul {
+  margin-left: 20px;
+  color: #333;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.skills {
+  background: #f1f5f9;
+  padding: 18px;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.skill-category {
+  margin-bottom: 10px;
+}
+
+.tags {
+  font-weight: 400;
+  color: #333;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+  font-size: 0.95rem;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.thank-you {
+  font-style: italic;
+  margin-top: 10px;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .job-header, .edu-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .job-subheader, .edu-subheader {
+    font-size: 0.9rem;
+  }
+
+  .date {
+    font-size: 0.9rem;
+  }
+}
