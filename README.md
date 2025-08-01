@@ -1,2 +1,2 @@
-# nikitallyashenko.github.io
+# NikitaLyashenko.github.io
 My professional resume
